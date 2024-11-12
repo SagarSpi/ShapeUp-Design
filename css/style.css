@@ -25,12 +25,9 @@ ul li{
 /*header section css start*/
 .header-section{
 	width: 100%;
-    height: 100vh;
-	background: url(../image/banner-bg.png) center left no-repeat;
-	background-size: cover;
 }
 .header-section .bg-light {
-    background-color: transparent !important;
+    background-color: #181818 !important;
 }
 .header-section .navbar-brand img{
 	width: 100%;
@@ -55,27 +52,6 @@ ul li{
 	cursor: pointer;
 	transition: .2s linear;
 }
-.header-section .header-inner {
-    padding: 180px 0px 130px 0px;
-}
-.header-section .header-inner h1 {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 44px;
-    font-weight: 500;
-    line-height: 54px;
-}
-.header-section .header-inner span {
-    color: #12c2e9;
-    font-size: 35px;
-    font-weight: 600;
-}
-.header-section .header-inner p {
-    color: #fff;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 300;
-}
 .header-section .header-inner a {
     color: #fff;
     background: transparent;
@@ -94,6 +70,52 @@ ul li{
 	transition: .3s linear;
 }
 /*header section css end*/
+/*banner section css start*/
+.banner-section{
+    background: url(../image/banner-bg.png) center left no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.banner-section .banner-inner{
+    padding-top: 180px;
+}
+.banner-section .banner-inner h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 54px;
+}
+.banner-section .banner-inner span {
+    color: #12c2e9;
+    font-size: 35px;
+    font-weight: 600;
+}
+.banner-section .banner-inner p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+}
+.banner-section .banner-inner a {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #bf0a48;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 5px 25px;
+    margin-right: 15px;
+    transition: all .4s;
+}
+.banner-section .banner-inner a:hover{
+    background: linear-gradient(to right,#d20039,#d20039, #e50117, #e50117);
+    border: 1px solid #e50117;
+    cursor: pointer;
+    transition: .3s linear;
+}
+/*banner section css end*/
 /*about us section css start*/
 .about-us-section{
     width: 100%;
