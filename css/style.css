@@ -27,7 +27,7 @@ ul li{
 	width: 100%;
 }
 .header-section .bg-light {
-    background-color: #181818 !important;
+    background: linear-gradient(90deg, rgb(20 20 20) 8%, rgb(21 21 21) 32%, rgb(20 20 20) 58%, rgb(27 27 27) 76%, rgb(30 30 30) 94%);
 }
 .header-section .navbar-brand img{
 	width: 100%;
